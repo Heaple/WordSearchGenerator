@@ -1,3 +1,5 @@
+from random import *
+
 word_search = []
 total_word_list = []
 
@@ -15,7 +17,7 @@ for i in range(word_count):
 for i in range(height):
     have_to_append = []
     for j in range(width):
-        have_to_append.append("⬜️")
+        have_to_append.append(chr(randrange(65, 91)) + " ")
     word_search.append(have_to_append)
 
 for i in word_search:
