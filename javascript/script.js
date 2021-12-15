@@ -3,7 +3,6 @@ const activeclass = "active";
 
 function handlestartBtnMouseEnter() {
     startButton.classList.add(activeclass);
-
 }
 
 function handlestartBtnMouseLeave() {
@@ -11,7 +10,7 @@ function handlestartBtnMouseLeave() {
 }
 
 function handleStartBtnClick() {
-    window.location.href = "making_word_search/making_word_search.html";
+    window.location.href = "/html/select.html";
 }
 
 startButton.addEventListener("mouseenter", handlestartBtnMouseEnter);
