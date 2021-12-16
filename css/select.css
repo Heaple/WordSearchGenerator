@@ -1,0 +1,33 @@
+html {
+    background-color: lightcyan;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+#make-button {
+    background-color:transparent;
+    border: solid 1px black;
+    border-radius: 6px;
+    width: 80px;
+    height: 20px;
+    box-align: center;
+    font-size: 12px;
+    text-align: center;
+}
+
+#make-button.active {
+    transition: 0.5s;
+    background-color: #374151;
+    color: white;
+}
+
+.inputs {
+    background-color: transparent;
+    border-radius: 5px;
+    border: solid 1.5px black;
+    width: auto;
+    height: 15px;
+    box-align: center;
+    font-size: 10px;
+    text-align: center;
+    transition: 0.5s;
+}

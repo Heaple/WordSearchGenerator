@@ -1,5 +1,5 @@
 html {
-    background-color: lavender;
+    background-color:lightcyan;
 }
 #start-button {
     background-color: transparent;
@@ -26,6 +26,7 @@ html {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #start-button.active {
