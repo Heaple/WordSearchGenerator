@@ -44,6 +44,8 @@ function handleMakeBtnMouseLeave() {
 
 export { width, height };
 
-makebutton.addEventListener("mouseenter", handleMakeBtnMouseEnter);
-makebutton.addEventListener("mouseleave", handleMakeBtnMouseLeave);
-makebutton.addEventListener("click", handleClickMakeBtn);
+if (makebutton) {
+    makebutton.addEventListener("mouseenter", handleMakeBtnMouseEnter);
+    makebutton.addEventListener("mouseleave", handleMakeBtnMouseLeave);
+    makebutton.addEventListener("click", handleClickMakeBtn);
+}
